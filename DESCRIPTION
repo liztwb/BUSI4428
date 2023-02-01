@@ -13,4 +13,6 @@ Imports:
     evir,
     ghyp,
     quantmod,
+    fBasics,
+    ggplot2,
     boot

@@ -3,5 +3,7 @@
 export(HS_aw)
 importFrom(boot,boot)
 importFrom(evir,dgev)
+importFrom(fBasics,basicStats)
+importFrom(ggplot2,ggplot)
 importFrom(ghyp,dghyp)
 importFrom(quantmod,getSymbols)

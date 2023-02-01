@@ -6,4 +6,6 @@
 #' @importFrom ghyp dghyp
 #' @importFrom quantmod getSymbols
 #' @importFrom boot boot
+#' @importFrom ggplot2 ggplot
+#' @importFrom fBasics basicStats
 NULL
