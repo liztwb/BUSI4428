@@ -4,7 +4,7 @@
 \alias{HS_aw}
 \title{VaR and ES using Age-weighted HS}
 \usage{
-HS_aw(r, P = 1000, lam = 0.98, ci = 0.95)
+HS_aw(r, P = 1000, lam = 0.98, cl = 0.95)
 }
 \arguments{
 \item{r}{a vector of returns}
@@ -13,7 +13,7 @@ HS_aw(r, P = 1000, lam = 0.98, ci = 0.95)
 
 \item{lam}{lambda - the weighting parameter}
 
-\item{ci}{confidence for VaR and ES}
+\item{cl}{confidence level for VaR and ES}
 }
 \value{
 a vector containing VaR and ES

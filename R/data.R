@@ -1,14 +1,12 @@
 #' Google stock prices.
 #'
-#' An xts object containing the daily prices of google stock
+#' An xts object containing the adjusted daily prices of Amazon and Tesla stock
 
 #'
-#' @format An xts object with 3957 rows and 6 variables:
+#' @format An xts object with 4048 rows and 2 variables:
 #' \describe{
-#'   \item{GOOG.Open}{Open price, in US dollars}
-#'   \item{GOOG.High}{Open price, in US dollars}
-#'   \item{GOOG.Low}{Daily low price, in US dollars}
-#'   \item{GOOG.Close}{Daily closing price, in US dollars}
-#'  \item{GOOG.Volume}{Volume transacted, in US dollars}}
+#'   \item{AMZN}{Adjusted price of Amazon stock, in US dollars}
+#'   \item{GOOG.High}{Adjusted price of TESLA stock, in US dollars}
+#'}
 #' @source quantmod
-"GOOG"
+"AT"
