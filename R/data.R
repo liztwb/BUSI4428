@@ -1,4 +1,4 @@
-#' Google stock prices.
+#' Amazon and Tesla stock prices.
 #'
 #' An xts object containing the adjusted daily prices of Amazon and Tesla stock
 
